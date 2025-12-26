@@ -40,7 +40,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          repository: cluntop/tvbox
+          repository: samawong/tvresources
           token: ${{ secrets.GIT_TOKEN }}
           fetch-depth: 1
           lfs: true
